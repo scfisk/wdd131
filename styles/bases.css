@@ -46,7 +46,6 @@ nav {
 
 a {
     font-family: "Dosis", sans-serif;
-    font-optical-sizing: auto;
     font-weight: 600;
     font-style: normal; 
    
@@ -151,7 +150,6 @@ nav ul {
 
 p {
     font-family: "Dosis", sans-serif;
-    font-optical-sizing: auto;
     font-weight: 200;
     font-style: normal;
     color: #004420;
