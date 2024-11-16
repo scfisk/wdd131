@@ -71,6 +71,10 @@ nav ul {
     display: flex;
 }
 
+main {
+    max-width: 1280px;
+}
+
 .grid-box1 {
     display: grid;
     gap: 100px;
@@ -146,7 +150,6 @@ nav ul {
     align-content: center;
     background-color: #b4fcd6;
 }
-
 
 p {
     font-family: "Dosis", sans-serif;
