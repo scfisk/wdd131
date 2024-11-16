@@ -7,17 +7,63 @@
     <title>WDD 131 - Dynamic Web Fundamentals - Sara Nuss</title>
     <meta name="description" content="WDD 131 - Dynamic Web Fundamentals - Sara Nuss - Homepage">
     <meta name="author" content="Sara Nuss">
+    <link rel="stylesheet" href="styles/bases.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Bebas+Neue&family=Dosis:wght@510&family=Monoton&family=Righteous&display=swap" rel="stylesheet">
+
+    <script defer src="scripts/getdates.js"></script>
 </head>
 
 <body>
     <header>
-        <h1>WDD 131: Dynamic Web Fundamentals- Sara Nuss</h1>
+        <div><h1>WDD 131: Dynamic Web Fundamentals- Sara Nuss</h1></div>
+        <nav>
+            <ul>
+                <li><a href="https://www.linkedin.com/in/sara-fisk-c18/">Linkedin</a></li>
+                <li><a href="https://byui.instructure.com/">I-Learn</a></li>
+                <li><a href="https://www.churchofjesuschrist.org/study/scriptures/nt/philip/4?lang=eng&id=p13#p13">Scripture</a></li>
+                <li><a href="">Final Project</a></li>
+             </ul>
+        </nav>
     </header>
-    <main>
+    <main class="grid-box1">
+        <section class="card1">
+            <div class="grid-box2">
+                <div class="item1"> <h2>About Me</h2> </div>
+                <div class="item2"> 
+                    <p class="paragraphs">
+                        Hi, I'm Sara! I was born and raised in Maryland and I recently moved back. I'm in the process of looking for internship and job opportunities. Between school, kids, husband and home-ownership, I don't have any active hobbies right now, but hopefully that will change when I graduate.
+                    </p>
+                </div>
+                <div class="item6"> <img src="images/wdd131selfie.jpeg" alt="selfie" width="400" height="400"> </div>
+                <div class="item3"> <h3>My Family</h3> </div>
+                <div class="item4"> <img src="images/wdd131familyphoto.jpeg" alt="Family picture" width="400" height="400"> </div>
+                <div class="item5">
+                    <p class="paragraphs">
+                        Here's my family. I've been married to Andy for almost 7 years. We have a doggo, Benny, a 5 yr old, Matthew and a 2 yr old, Charlie. Matthew is obsessed with robots and Charlie is constantly exploring.
+                    </p>
+                </div>
 
+            </div>
+        </section>
+        <section class="card2">
+            <h4>Web Dev Resources</h4>
+            <div>
+                <a href="https://www.w3schools.com">W3Schools</a>
+                <a href="https://icolorpalette.com">Choose a Color</a>
+                <a href="https://www.w3.org/Style/CSS/Overview.en.html">CSS Homepage</a>
+                <a href="https://javascript.info">Javascript Tutorial</a>
+            </div>
+        </section>
     </main>
     <footer>
-
+        <p>
+            ©<span id="currentYear"></span>
+            Sara Nuss
+            Maryland, USA
+        </p>
+        <p id="lastModified"></p>
     </footer>
 </body>
 
