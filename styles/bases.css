@@ -32,7 +32,7 @@ h1, h2, h3, h4{
   } 
 
 h2, h3, h4 {
-    color: #03562a;
+    color: #004420;
   }
 
   img {
@@ -88,20 +88,22 @@ nav ul {
     border: 5px solid #5506ac;
     border-radius: 15px;
     padding: 25px;
-    
+    text-align: right;
+    margin-top: 250px;
+    margin-bottom: 150px;
 }
-
-.card2 div {
-    display: flex;
-}
-
 .card2 a {
-    padding-top: 4rem;
-    color:#e76801;
+    color:#004420;
     font-size: 100%;
-    display: block;
-    justify-content: space-evenly;
-    
+}
+
+.links {
+    list-style-type: none;
+    padding-top: 4rem;
+}
+
+.links li {
+    padding-top: 3rem;
 }
 
 .grid-box2 {
@@ -152,7 +154,7 @@ p {
     font-optical-sizing: auto;
     font-weight: 200;
     font-style: normal;
-    color: #03562a;
+    color: #004420;
 }
 
 .paragraphs {
